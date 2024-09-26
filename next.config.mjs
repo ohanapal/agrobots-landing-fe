@@ -2,7 +2,7 @@
 const nextConfig = {
   reactStrictMode: false,
   images: {
-    domains: ['rfqbucket.s3-website-ap-southeast-2.amazonaws.com', 's3.ap-southeast-2.amazonaws.com']
+    domains: ['argobot-bucket.s3-website.us-east-2.amazonaws.com', 'argobot-bucket.s3.us-east-2.amazonaws.com']
   }
 }
 
