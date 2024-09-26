@@ -1,7 +1,7 @@
 import BotPageComponent from '@/components/pages/bot'
 
 export const metadata = {
-  title: 'BotPage | Inova'
+  title: 'BotPage | Argobots'
 }
 
 export default function BotPage() {
