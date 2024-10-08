@@ -1,0 +1,33 @@
+.rightMsg {
+  color: var(--bot-font-color);
+  background-color: var(--bot-primary-color);
+}
+
+.leftMsg {
+  color: var(--bot-font-color);
+  background-color: var(--bot-secondary-color);
+}
+
+.text {
+  color: var(--bot-font-color);
+}
+
+.border {
+  border-color: var(--bot-font-color);
+}
+
+.textPrimary {
+  color: var(--bot-primary-color);
+}
+
+.borderPrimary {
+  border-color: var(--bot-primary-color);
+}
+
+.markdown {
+  & *,
+  strong,
+  li::marker {
+    color: var(--bot-font-color);
+  }
+}

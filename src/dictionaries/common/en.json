@@ -1,0 +1,24 @@
+{
+  "header": {
+    "login": "Login",
+    "signup": "Sign Up",
+    "dashboard": "Dashboard",
+    "navLinks": [
+      { "id": 1, "title": "Product", "href": "/products" },
+      { "id": 2, "title": "Features", "href": "/features" },
+      { "id": 3, "title": "Pricing", "href": "/pricing" },
+      { "id": 4, "title": "Resources", "href": "/resources" }
+    ]
+  },
+  "footer": {
+    "copyRight": "All Rights Reserved",
+    "newsLetter": {
+      "title": "Subscribe to Our Newsletter",
+      "description": "Stay in the loop with everything you need to know.",
+      "placeholder": "Enter your email",
+      "cta": "Subscribe",
+      "privacy": "We care about your data in our",
+      "privacyCta": "privacy policy"
+    }
+  }
+}
