@@ -6,7 +6,7 @@ import Typography from '@/components/ui/typography'
 import { getSubscribeDict } from '@/utils/i18n/get-dictionary'
 
 export const metadata = {
-  title: 'Subscribe | Inova'
+  title: 'Subscribe | Argobots'
 }
 
 export default async function Subscribe({ params: { lang } }) {
@@ -15,7 +15,7 @@ export default async function Subscribe({ params: { lang } }) {
     <main className='container'>
       <div className='flex items-center justify-center mt-10 mb-5'>
         <LLink href='/'>
-          <Img src={logo} alt='Inova' className='w-32 h-auto' />
+          <Img src={logo} alt='Argobots' className='w-32 h-auto' />
         </LLink>
       </div>
       <Typography

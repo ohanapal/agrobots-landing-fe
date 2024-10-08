@@ -33,7 +33,7 @@ export default function Navbar({ t }) {
       <header className={cn('fixed w-full top-0 left-0 right-0 h-20 backdrop-blur-lg z-40', { 'bg-white/50': !isTop })}>
         <nav className='container flex items-center justify-between h-full'>
           <LLink href='/'>
-            <Img src={logo} alt='Inova' className='w-auto h-1/2' />
+            <Img src={logo} alt='Argobots' className='w-auto h-1/2' />
           </LLink>
           {/* <ul className='hidden lg:flex gap-x-5 text-text-secondary font-medium'>
             {t.navLinks?.map(link => (
