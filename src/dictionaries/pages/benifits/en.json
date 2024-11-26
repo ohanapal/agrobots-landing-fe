@@ -1,0 +1,49 @@
+{
+  "hero": {
+    "headerTag": "Harness the Power of AI",
+    "title": "AI Chatbot for Customer Support by Argobot",
+    "description": "Enhance Customer Relationships with Argobot's AI Chatbot",
+    "cta": "Get My AI Agent",
+    "cta2": "Subscribe Now",
+    "creditCardText": "No credit card required",
+    "brandsTitle": "Trusted by Thousands of Businesses"
+  },
+  "features": {
+    "tag": "Trusted by Thousands of Businesses",
+    "title": "Stop Losing Leads, Start Engaging",
+    "description": "Over 20,000 businesses rely on Argobot AI Chatbot to enhance customer engagement and boost sales. Join the growing list of satisfied clients today.",
+    "features": [
+      {
+        "id": 1,
+        "title": "24/7 Customer Engagement",
+        "description": "Argobot AI Bot ensures your customers receive assistance anytime, enhancing their experience and satisfaction."
+      },
+      {
+        "id": 2,
+        "title": "Efficient Problem Resolution",
+        "description": "Get instant, accurate responses to customer inquiries, minimizing wait times and improving support efficiency."
+      },
+      {
+        "id": 3,
+        "title": "Scalable Solutions",
+        "description": "Whether your business is small or growing rapidly, Argobot AI Bot scales with you, ensuring consistent support without increasing costs."
+      },
+      {
+        "id": 4,
+        "title": "Enhanced Customer Happiness",
+        "description": "Our AI chatbot delivers precise answers, reducing errors and ensuring customers are always informed and satisfied."
+      },
+      {
+        "id": 5,
+        "title": "Lead Generation & Conversion",
+        "description": "Seamlessly capture, qualify, and convert leads with AI-driven engagement."
+      }
+    ]
+  },
+  "getStartedCTA": {
+    "title": "Get Started with Argobot AI Bot",
+    "description": "Experience the transformative power of AI for your business. Start now and watch your business grow.",
+    "cta": "Sign Up for Free",
+    "cta2": "Contact Us"
+  }
+}

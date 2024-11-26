@@ -1,0 +1,49 @@
+{
+  "hero": {
+    "headerTag": "Harness the Power of AI",
+    "title": "Inbound Sales AI Chatbot for Argobot",
+    "description": "Turn Visitors into Customers with Argobot's AI Sales Agent",
+    "cta": "Get My AI Agent",
+    "cta2": "Subscribe Now",
+    "creditCardText": "No credit card required",
+    "brandsTitle": "Trusted by Thousands of Businesses"
+  },
+  "description1": {
+    "title": "Talk to Your Leads Proactively",
+    "listItems": [
+      "Increase Revenue with AI: Leverage Argobot's AI sales agent to engage with visitors, turning them into valuable leads.",
+      "Automate Conversations: Set up automated triggers to start conversations and welcome leads with personalized messages.",
+      "Enhance Customer Experience: Proactively guide and assist visitors to elevate their experience on your website."
+    ]
+  },
+  "description2": {
+    "title": "Capture Leads Effectively",
+    "listItems": [
+      "Streamlined Visitor to Lead Conversion: Replace static forms with dynamic conversations to capture lead details efficiently.",
+      "Optimize Lead Capture: Increase your website's conversion rates with our conversational AI bot."
+    ]
+  },
+  "description3": {
+    "title": "Qualify Leads on Auto-Pilot",
+    "listItems": [
+      "Custom Questions for Lead Qualification: Ask tailored questions to qualify leads effortlessly.",
+      "Easy Customer Contact: Simplify the process for customers to reach out to you, enhancing lead qualification.",
+      "Personalized Recommendations: Provide custom recommendations to improve lead qualification rates."
+    ]
+  },
+  "description4": {
+    "title": "Follow-Up with Leads Automatically",
+    "listItems": [
+      "Automate Sales Processes: Automate follow-ups and send personalized emails without effort, ensuring continuous engagement.",
+      "24/7 Availability: Be present for your customers at all times. 24/7."
+    ]
+  },
+  "description5": {
+    "title": "Achieve Business Goals with Automation",
+    "listItems": [
+      "Book Meetings and Collect Feedback: Use automation to achieve business goals like scheduling meetings and collecting CSAT scores.",
+      "AI-Generated Insights: Get summarized insights from conversations to stay informed about customer needs.",
+      "Upsell and Cross-Sell Efficiently: Grow revenue through automated upselling and cross-selling strategies."
+    ]
+  }
+}

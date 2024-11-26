@@ -1,0 +1,17 @@
+{
+  "name": "Testbot",
+  "colors": {
+    "font": "#ffffff",
+    "primary": "#4c1d95"
+  },
+  "background": {
+    "light": "/temp/light-bg.jpg",
+    "dark": "/temp/dark-bg.jpg"
+  },
+  "avatar": "/temp/avatar.png",
+  "bot": "/temp/bot.png",
+  "logo": {
+    "light": "/temp/logo.png",
+    "dark": "/temp/logo.png"
+  }
+}

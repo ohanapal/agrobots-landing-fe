@@ -1,0 +1,81 @@
+{
+  "signup": {
+    "title": "Welcome to Argobot!",
+    "description": "Register now and start your adventure.",
+    "form": {
+      "title": "Check Your Inbox",
+      "description": "We have sent you an email to verify your account. Please check your inbox.",
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "email": "Email",
+      "emailAddress": "Email Address",
+      "password": "Password",
+      "agreeTo": "I agree to all the",
+      "terms": "Terms & Conditions",
+      "register": "Register",
+      "alreadyHaveAccount": "Already have an account?",
+      "login": "Login",
+      "agreeToTerms": "Please agree to the terms and conditions!",
+      "checkEmail": "Check your email to verify your account"
+    }
+  },
+  "signupVerify": {
+    "verifyEmailTitle": "Verify Your Email!",
+    "verifyEmailDescription": "We'll verify your email address now!",
+    "verifyingEmailTitle": "Verifying Email...",
+    "verifyingEmailDescription": "Please wait till we verify your email address.",
+    "emailVerifiedTitle": "Email is verified",
+    "emailVerifiedDescription": "Email verification successful. Soon you will be redirected to login page.",
+    "emailVerificationFailedTitle": "Email verification failed",
+    "emailVerificationFailedDescription": "Email verification failed."
+  },
+  "login": {
+    "welcomeBackTitle": "Welcome Back!",
+    "welcomeBackDescription": "Welcome back, please enter your details.",
+    "form": {
+      "email": "Email",
+      "emailAddress": "Email Address",
+      "password": "Password",
+      "rememberMe": "Remember Me",
+      "forgotPassword": "Forgot Password?",
+      "loginButton": "Login",
+      "dontHaveAccount": "Don't have an account?",
+      "signup": "Signup",
+      "loginSuccess": "Logged in successfully!"
+    }
+  },
+  "forgotPassword": {
+    "title": "Forgot Password | Argobot",
+    "heading": "Forgot Password",
+    "description": "Enter the email address you used when joined and we'll send reset instructions to reset your password.",
+    "email": "Email",
+    "emailAddress": "Email Address",
+    "sendResetInstructions": "Send Reset Instructions",
+    "backToLoginPrompt": "Back to login page?",
+    "backNow": "Back now",
+    "sendOtpSuccess": "Sent Verify OTP Successfully!"
+  },
+  "verifyOtp": {
+    "title": "Verify OTP | Argobot",
+    "heading": "Verify OTP",
+    "description": "Input the OTP that is sent to your Email",
+    "email": "Email",
+    "verifyButton": "Verify",
+    "otpVerifiedSuccess": "OTP Verified Successfully!",
+    "emailPlaceholder": "Email Address",
+    "editEmail": "Edit Email"
+  },
+
+  "resetPassword": {
+    "title": "Reset Password | Argobot",
+    "heading": "Reset Password",
+    "description": "Reset Your Password. Input and confirm your password before proceeding",
+    "passwordPlaceholder": "Password",
+    "confirmPasswordPlaceholder": "Confirm Password",
+    "passwordMismatchError": "Password does not match!",
+    "passwordResetSuccess": "Password reset successfully!",
+    "resetButton": "Reset Password",
+    "signupPrompt": "Don't have an account?",
+    "signupLink": "Signup"
+  }
+}

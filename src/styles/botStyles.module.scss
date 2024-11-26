@@ -1,0 +1,45 @@
+.rightMsg {
+  color: var(--bot-secondary-font-color);
+}
+
+.leftMsg {
+  color: var(--bot-secondary-font-color);
+  box-shadow: 0 0 7px rgba(0, 0, 0, 0.1);
+  //background-color: var(--bot-secondary-color);
+}
+
+.bgPrimary {
+  background-color: var(--bot-primary-color);
+}
+
+.bgSecondary {
+  background-color: var(--bot-secondary-color);
+}
+
+.textPrimary {
+  color: var(--bot-primary-font-color);
+}
+
+.textSecondary {
+  color: var(--bot-secondary-font-color);
+}
+
+.borderPrimary {
+  border-color: var(--bot-primary-color);
+}
+
+.borderSecondary {
+  border-color: var(--bot-secondary-color);
+}
+
+.markdown {
+  & *,
+  strong,
+  li::marker {
+    color: var(--bot-secondary-font-color);
+  }
+
+  pre > code {
+    color: white;
+  }
+}

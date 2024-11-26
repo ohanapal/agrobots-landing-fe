@@ -1,0 +1,18 @@
+{
+  "companyInfo": {
+    "title": "Add Company Info",
+    "description": "Add Company info to get started. Use correct information to avoid any issues.",
+    "form": {
+      "companyLogo": "Company Logo*",
+      "companyLogoDark": "Company Logo (Dark Mode)",
+      "companyName": "Company Name",
+      "email": "Primary Contact Email",
+      "companyWebsite": "Company Website",
+      "companyIndustry": "Industry",
+      "companyAddress": "Address",
+      "companyDescription": "Company Description",
+      "save": "Save",
+      "success": "Company Info Added Successfully!"
+    }
+  }
+}

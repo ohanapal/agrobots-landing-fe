@@ -1,0 +1,301 @@
+{
+  "hero": {
+    "headerTag": "Convert Visitors to Buyers with Argobot's AI Bot",
+    "title": "AI-Powered Sales Agent for Your Website",
+    "description": "Unlock the power of AI to engage visitors, book meetings, qualify leads, and close deals effortlessly.",
+    "cta": "Get My AI Agent",
+    "creditCardText": "No credit card required",
+    "brandsTitle": "Trusted by Thousands of Businesses"
+  },
+  "clients": {
+    "tag": "Our Clients",
+    "title": "Trusted by Thousands of Businesses",
+    "description": "Turn Your Website into a Lead Generation Machine"
+  },
+  "askAgent": {
+    "title": "Ask agent",
+    "placeholders": [
+      "What's the first rule of Fight Club?",
+      "Who is Tyler Durden?",
+      "Where is Andrew Laeddis Hiding?",
+      "Write a Javascript method to reverse a string",
+      "How to assemble your own PC?"
+    ]
+  },
+  "features": [
+    {
+      "id": 1,
+      "title": "Engage with every visitor",
+      "description": "Help them find exactly what they are looking for."
+    },
+    {
+      "id": 2,
+      "title": "Navigate to the right products",
+      "description": "Instantly direct visitors to the relevant case studies and offerings."
+    },
+    {
+      "id": 3,
+      "title": "Capture leads seamlessly",
+      "description": "Say goodbye to missed opportunities."
+    },
+    {
+      "id": 4,
+      "title": "Support in multiple languages",
+      "description": "Communicate in over 175 languages"
+    }
+  ],
+  "cta": {
+    "tag": "Get Started",
+    "title": "Create the Perfect AI Sales Agent in Just 5 Minutes",
+    "description": "All it takes is 5 minutes to set up your AI sales agent.",
+    "cta": "Enhance Customer Interactions"
+  },
+  "description1": {
+    "title": "Create AI Navigation Now",
+    "listItems": [
+      "Proactive engagement: Reach out to potential buyers.",
+      "Capture and qualify leads: Gather detailed visitor information.",
+      "Summarize customer insights: Understand needs and issues efficiently."
+    ]
+  },
+  "description2": {
+    "title": "Personalized Responses for Informed Decisions",
+    "listItems": [
+      "Support for 175+ languages",
+      "24/7 high-quality responses across multiple channels",
+      "Engage in meaningful conversations to increase customer lifetime value"
+    ]
+  },
+  "description3": {
+    "title": "Get a Personalized Sales Agent for Your Website",
+    "listItems": [
+      "Book meetings and recommend products",
+      "Upsell or cross-sell based on customer needs",
+      "Summarize insights on customer needs and issues"
+    ]
+  },
+  "cta2": {
+    "title": "Integrate with Your Favorite Tools",
+    "description": "Connect with popular tools like Gmail, HubSpot, WhatsApp, and more to enhance your platform’s capabilities.",
+    "cta": "Get Started",
+    "cta2": "Learn More"
+  },
+  "pricingPlans": {
+    "tag": "Choose the best plan for your business needs. Starting at $0 per month.",
+    "title": "Pricing Plans",
+    "billedMonthly": "Billed Monthly",
+    "billedAnnually": "Billed Annually",
+    "cta": "Get Started Now",
+    "monthly": "Monthly",
+    "annually": "Annually",
+    "plans": [
+      {
+        "name": "Hobby",
+        "id": "tier-hobby",
+        "href": "#",
+        "price": {
+          "monthly": "15",
+          "annually": "144"
+        },
+        "description": "The essentials to provide your best work for clients.",
+        "features": ["5 products", "Up to 1,000 subscribers", "Basic analytics"],
+        "mostPopular": false
+      },
+      {
+        "name": "Freelancer",
+        "id": "tier-freelancer",
+        "href": "#",
+        "price": {
+          "monthly": "30",
+          "annually": "288"
+        },
+        "description": "The essentials to provide your best work for clients.",
+        "features": ["5 products", "Up to 1,000 subscribers", "Basic analytics", "48-hour support response time"],
+        "mostPopular": false
+      },
+      {
+        "name": "Startup",
+        "id": "tier-startup",
+        "href": "#",
+        "price": {
+          "monthly": "60",
+          "annually": "576"
+        },
+        "description": "A plan that scales with your rapidly growing business.",
+        "features": [
+          "25 products",
+          "Up to 10,000 subscribers",
+          "Advanced analytics",
+          "24-hour support response time",
+          "Marketing automations"
+        ],
+        "mostPopular": true
+      },
+      {
+        "name": "Enterprise",
+        "id": "tier-enterprise",
+        "href": "#",
+        "price": {
+          "monthly": "90",
+          "annually": "864"
+        },
+        "description": "Dedicated support and infrastructure for your company.",
+        "features": [
+          "Unlimited products",
+          "Unlimited subscribers",
+          "Advanced analytics",
+          "1-hour, dedicated support response time",
+          "Marketing automations",
+          "Custom reporting tools"
+        ],
+        "mostPopular": false
+      }
+    ]
+  },
+  "pricingComparison": {
+    "comparePlans": "Compare Plans",
+    "month": "Month",
+    "annual": "Annual",
+    "off": "40% Off",
+    "description": "Choose your workspace plan according to your organisational plan",
+    "choose": "Choose This Plan",
+    "tiers": [
+      {
+        "name": "Basic",
+        "id": "tier-basic",
+        "href": "#",
+        "priceMonthly": "$9",
+        "description": "Quis suspendisse ut fermentum neque vivamus non tellus.",
+        "mostPopular": false
+      },
+      {
+        "name": "Essential",
+        "id": "tier-essential",
+        "href": "#",
+        "priceMonthly": "$29",
+        "description": "Quis eleifend a tincidunt pellentesque. A tempor in sed.",
+        "mostPopular": false
+      },
+      {
+        "name": "Premium",
+        "id": "tier-premium",
+        "href": "#",
+        "priceMonthly": "$59",
+        "description": "Orci volutpat ut sed sed neque, dui eget. Quis tristique non.",
+        "mostPopular": false
+      },
+      {
+        "name": "Enterprise",
+        "id": "tier-enterprise",
+        "href": "#",
+        "priceMonthly": "$99",
+        "description": "Orci volutpat ut sed sed neque, dui eget. Quis tristique non.",
+        "mostPopular": false
+      }
+    ],
+    "features": [
+      {
+        "name": "Integrations",
+        "tiers": {
+          "Basic": true,
+          "Essential": true,
+          "Premium": true,
+          "Enterprise": true
+        }
+      },
+      {
+        "name": "Shared links",
+        "tiers": {
+          "Basic": true,
+          "Essential": true,
+          "Premium": true,
+          "Enterprise": true
+        }
+      },
+      {
+        "name": "Importing and exporting",
+        "tiers": {
+          "Essential": true,
+          "Premium": true,
+          "Enterprise": true
+        }
+      },
+      {
+        "name": "Team members",
+        "tiers": {
+          "Essential": "Up to 20 users",
+          "Premium": "Up to 50 users",
+          "Enterprise": "Unlimited"
+        }
+      },
+      {
+        "name": "Advanced analytics",
+        "tiers": {
+          "Basic": true,
+          "Essential": true,
+          "Premium": true,
+          "Enterprise": true
+        }
+      },
+      {
+        "name": "Basic reports",
+        "tiers": {
+          "Essential": true,
+          "Premium": true,
+          "Enterprise": true
+        }
+      },
+      {
+        "name": "Professional reports",
+        "tiers": {
+          "Premium": true,
+          "Enterprise": true
+        }
+      },
+      {
+        "name": "Custom report builder",
+        "tiers": {
+          "Premium": true,
+          "Enterprise": true
+        }
+      },
+      {
+        "name": "24/7 online support",
+        "tiers": {
+          "Basic": true,
+          "Essential": true,
+          "Premium": true,
+          "Enterprise": true
+        }
+      },
+      {
+        "name": "Quarterly product workshops",
+        "tiers": {
+          "Essential": true,
+          "Premium": true,
+          "Enterprise": true
+        }
+      },
+      {
+        "name": "Priority phone support",
+        "tiers": {
+          "Essential": true,
+          "Premium": true,
+          "Enterprise": true
+        }
+      },
+      {
+        "name": "1:1 onboarding tour",
+        "tiers": {
+          "Premium": true,
+          "Enterprise": true
+        }
+      }
+    ]
+  },
+  "testimonials": {
+    "tag": "Testimonials",
+    "title": "Trusted by the Finest",
+    "description": "See testimonials from satisfied users who have transformed their businesses with Argobot’s AI bot."
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "header": {
+    "tag": "Header",
+    "title": "Argobot AI Case Study",
+    "description": "Boosting Lead Generation and Website Conversions"
+  },
+  "about": {
+    "tag": "About the project",
+    "firstSection": {
+      "title": "Background",
+      "description": "A leading e-commerce company, XYZ, struggled with capturing leads and converting website visitors into customers. They partnered with Argobot to implement AI-powered chatbots to enhance their digital engagement."
+    },
+    "secondSection": {
+      "title": "Challenges",
+      "listItems": ["Low lead capture rates", "High bounce rates", "Inefficient customer support"]
+    }
+  },
+  "whatWeDid": {
+    "tag": "What we did",
+    "title": "Argobot deployed its AI chatbot to",
+    "description": "We Integrated Argobot AI chatbot with XYZ’s CRM and marketing platforms, Conducted A/B testing to optimize chatbot interactions & Trained the chatbot using historical customer data.",
+    "cards": [
+      {
+        "id": 1,
+        "title": "Engage visitors 24/7",
+        "description": "Stay connected with your team and make quick decisions wherever you are."
+      },
+      {
+        "id": 2,
+        "title": "Automate lead capture with interactive forms",
+        "description": "A tool that lets you build a dream website even if you know nothing about web design or programming."
+      },
+      {
+        "id": 3,
+        "title": "Provide instant responses to queries",
+        "description": "Get a complete sales dashboard in the cloud. See activity, revenue and social metrics all in one place."
+      },
+      {
+        "id": 4,
+        "title": "Offer personalized product recommendations",
+        "description": "The first business platform to bring together all of your products from one place."
+      }
+    ]
+  },
+  "results": {
+    "tag": "What did we acheive",
+    "title": "Results?",
+    "description": " Flex is the only business platform that lets you run your business on one platform, seamlessly across all digital channels.",
+    "results": [
+      { "id": 1, "title": "40%", "description": "increase in lead capture rate" },
+      { "id": 2, "title": "30%", "description": "reduction in bounce rates" },
+      { "id": 3, "title": "50%", "description": "increase in customer satisfaction" },
+      { "id": 4, "title": "25%", "description": "reduction in customer support costs" }
+    ]
+  },
+  "getStartedCTA": {
+    "title": "Summary",
+    "description": "Argobot AI Chatbots revolutionized XYZ’s online presence, driving significant improvements in lead generation and conversion rates. The personalized interactions and efficient customer support provided by the chatbot led to higher customer satisfaction and business growth.",
+    "cta": "Sign Up for Free",
+    "cta2": "Contact Us"
+  }
+}

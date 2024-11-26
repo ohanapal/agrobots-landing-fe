@@ -1,0 +1,22 @@
+{
+  "signup": {
+    "title": "Welcome to Argobot!",
+    "description": "Register now and start your adventure.",
+    "form": {
+      "title": "Check Your Inbox",
+      "description": "We have sent you an email to verify your account. Please check your inbox.",
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "email": "Email",
+      "emailAddress": "Email Address",
+      "password": "Password",
+      "agreeTo": "I agree to all the",
+      "terms": "Terms & Conditions",
+      "register": "Register",
+      "alreadyHaveAccount": "Already have an account?",
+      "login": "Login",
+      "agreeToTerms": "Please agree to the terms and conditions!",
+      "checkEmail": "Check your email to verify your account"
+    }
+  }
+}
