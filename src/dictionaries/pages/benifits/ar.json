@@ -1,7 +1,7 @@
 {
   "hero": {
     "headerTag": "Harness the Power of AI",
-    "title": "Unlocking Potential with Argobot AI Bot",
+    "title": "Unlocking Potential with Argobots AI Bot",
     "description": "Empower Your Business, Drive Growth",
     "cta": "Get My AI Agent",
     "cta2": "Subscribe Now",
@@ -11,12 +11,12 @@
   "features": {
     "tag": "Trusted by Thousands of Businesses",
     "title": "Stop Losing Leads, Start Engaging",
-    "description": "Over 20,000 businesses rely on Argobot AI Chatbot to enhance customer engagement and boost sales. Join the growing list of satisfied clients today.",
+    "description": "Over 20,000 businesses rely on Argobots AI Chatbot to enhance customer engagement and boost sales. Join the growing list of satisfied clients today.",
     "features": [
       {
         "id": 1,
         "title": "24/7 Customer Engagement",
-        "description": "Argobot AI Bot ensures your customers receive assistance anytime, enhancing their experience and satisfaction."
+        "description": "Argobots AI Bot ensures your customers receive assistance anytime, enhancing their experience and satisfaction."
       },
       {
         "id": 2,
@@ -26,7 +26,7 @@
       {
         "id": 3,
         "title": "Scalable Solutions",
-        "description": "Whether your business is small or growing rapidly, Argobot AI Bot scales with you, ensuring consistent support without increasing costs."
+        "description": "Whether your business is small or growing rapidly, Argobots AI Bot scales with you, ensuring consistent support without increasing costs."
       },
       {
         "id": 4,
@@ -46,7 +46,7 @@
     ]
   },
   "getStartedCTA": {
-    "title": "Get Started with Argobot AI Bot",
+    "title": "Get Started with Argobots AI Bot",
     "description": "Experience the transformative power of AI for your business. Start now and watch your business grow.",
     "cta": "Sign Up for Free",
     "cta2": "Contact Us"

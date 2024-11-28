@@ -12,13 +12,14 @@ import styles from '@/styles/botStyles.module.scss'
 import { rtkErrorMesage } from '@/utils/error/errorMessage'
 import { ArrowDown, Copy, Loader2, PlayCircle, Send, StopCircle } from 'lucide-react'
 import { useTheme } from 'next-themes'
-import { useEffect, useRef, useState } from 'react'
+import { useCallback, useEffect, useRef, useState } from 'react'
 import toast from 'react-hot-toast'
 import { useDispatch, useSelector } from 'react-redux'
 import { runBotThread } from '../bot.helpers'
 import { useThreadCallback } from '../bot.hooks'
 import BotTopNav from '../BotTopNav'
 import BotForm from './BotForm'
+import MessageContent from './MessageContent'
 
 export default function BotContainer({
   id,
@@ -119,32 +120,37 @@ export default function BotContainer({
 
   const { runId } = useSelector(state => state.bot)
 
-  const stopRun = () => {
+  const stopRun = useCallback(() => {
     if (!runId) return
     stopRunFn({ run_id: runId, thread_id: id })
     setisLoading(false)
-  }
+  }, [id, runId, setisLoading, stopRunFn])
 
   const { theme } = useTheme()
   const dispatch = useDispatch()
 
-  const cb = useThreadCallback(id, tempMessages, handlePlay, botData)
-  const handleSubmit = (e, start = false) => {
-    e.preventDefault()
-    if (message === '') return
+  const cb = useThreadCallback(id, handlePlay, botData)
+  const handleSubmit = useCallback(
+    (e, start = false) => {
+      if (!start) {
+        e.preventDefault()
+        if (message === '') return
+      }
 
-    runBotThread({
-      msg: start ? 'Start' : message,
-      setisLoading,
-      setTempMessages,
-      tempMessages,
-      id,
-      cb,
-      setMessage,
-      setaudioURL: () => {},
-      dispatch
-    })
-  }
+      runBotThread({
+        msg: start ? 'Start' : message,
+        setisLoading,
+        setTempMessages,
+        tempMessages,
+        id,
+        cb,
+        setMessage,
+        setaudioURL: () => {},
+        dispatch
+      })
+    },
+    [cb, dispatch, id, message, setMessage, setTempMessages, setisLoading, tempMessages]
+  )
 
   return (
     <main className={cn('h-screen w-full p-2', styles.bgSecondary)}>
@@ -227,14 +233,7 @@ export default function BotContainer({
                         <div className='flex flex-col max-w-full'>
                           <div className='group'>
                             <div className={cn('my-1 text-sm rounded-lg pl-10')}>
-                              <div
-                                dangerouslySetInnerHTML={{ __html: msg?.content?.[0]?.text?.value }}
-                                className={cn(
-                                  styles.textSecondary,
-                                  styles.markdown,
-                                  'prose max-w-full text-sm prose-headings:my-3 prose-p:my-1 p-2 rounded-lg'
-                                )}
-                              />
+                              <MessageContent msg={msg} />
                             </div>
 
                             {msg.role === 'assistant' && (

@@ -4,7 +4,7 @@ import { Hero, Testimonials } from '@/components/pages/homepage'
 import { getBenifitsDict, getHomepageDict } from '@/utils/i18n/get-dictionary'
 
 export const metadata = {
-  title: 'Benifits | Argobot'
+  title: 'Benifits | Argobots'
 }
 
 export default async function BenifitsPage({ params: { lang } }) {

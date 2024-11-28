@@ -5,7 +5,7 @@ import { Home, Undo, X } from 'lucide-react'
 import BackButton from './BackButton'
 
 export const metadata = {
-  title: 'Payment Fail | Argobot'
+  title: 'Payment Fail | Argobots'
 }
 
 export default function PaymentFailPage() {

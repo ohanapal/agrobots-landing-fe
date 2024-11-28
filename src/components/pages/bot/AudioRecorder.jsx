@@ -26,7 +26,7 @@ const AudioRecorder = ({
   const audioChunksRef = useRef([])
   const streamRef = useRef(null)
 
-  const cb = useThreadCallback(id, tempMessages, handlePlay, botData)
+  const cb = useThreadCallback(id, handlePlay, botData)
 
   useEffect(() => {
     // Detect iOS device

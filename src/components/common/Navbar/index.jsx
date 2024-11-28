@@ -37,7 +37,7 @@ export default function Navbar({ t }) {
       >
         <nav className='container flex items-center justify-between h-full'>
           <LLink href='/'>
-            <Img src={logo} alt='Argobot' className='w-auto h-1/2' />
+            <Img src={logo} alt='Argobots' className='w-auto h-1/2' />
           </LLink>
           {/* <ul className='hidden lg:flex gap-x-5 text-text-secondary font-medium'>
             {t.navLinks?.map(link => (

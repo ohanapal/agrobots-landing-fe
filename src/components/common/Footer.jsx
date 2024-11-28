@@ -18,7 +18,7 @@ export default function Footer({ t }) {
     <footer className='bg-dark-gray py-32'>
       <NewsLetter t={t.newsLetter} />
       <div className='flex flex-col items-center justify-center gap-y-8'>
-        <Img src={logo} alt='Argobot' className='w-48 h-auto' />
+        <Img src={logo} alt='Argobots' className='w-48 h-auto' />
 
         <ul className='container flex flex-wrap justify-center gap-x-5 text-text-secondary font-medium'>
           {footerLinks.map(link => (
@@ -31,7 +31,7 @@ export default function Footer({ t }) {
         <div className='w-full h-0.5 bg-primary my-5' />
 
         <p className='text-text-secondary font-medium text-center'>
-          &copy; Argobot {new Date().getFullYear()}. {t.copyRight}
+          &copy; Argobots {new Date().getFullYear()}. {t.copyRight}
         </p>
       </div>
     </footer>

@@ -4,7 +4,7 @@ import { Hero, Testimonials } from '@/components/pages/homepage'
 import { getContactSupportDict, getHomepageDict } from '@/utils/i18n/get-dictionary'
 
 export const metadata = {
-  title: 'Contact Support | Argobot'
+  title: 'Contact Support | Argobots'
 }
 
 export default async function ContactSupportPage({ params: { lang } }) {

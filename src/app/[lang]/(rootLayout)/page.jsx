@@ -17,7 +17,7 @@ import RedirectToDashboard from '@/components/pages/homepage/RedirectToDashboard
 import { getHomepageDict } from '@/utils/i18n/get-dictionary'
 
 export const metadata = {
-  title: 'Argobot | AI Solutions'
+  title: 'Argobots | AI Solutions'
 }
 
 export default async function Home({ params: { lang } }) {

@@ -1,6 +1,6 @@
 {
   "signup": {
-    "title": "Welcome to Argobot!",
+    "title": "Welcome to Argobots!",
     "description": "Register now and start your adventure.",
     "form": {
       "title": "Check Your Inbox",
@@ -45,7 +45,7 @@
     }
   },
   "forgotPassword": {
-    "title": "Forgot Password | Argobot",
+    "title": "Forgot Password | Argobots",
     "heading": "Forgot Password",
     "description": "Enter the email address you used when joined and we'll send reset instructions to reset your password.",
     "email": "Email",
@@ -56,7 +56,7 @@
     "sendOtpSuccess": "Sent Verify OTP Successfully!"
   },
   "verifyOtp": {
-    "title": "Verify OTP | Argobot",
+    "title": "Verify OTP | Argobots",
     "heading": "Verify OTP",
     "description": "Input the OTP that is sent to your Email",
     "email": "Email",
@@ -67,7 +67,7 @@
   },
 
   "resetPassword": {
-    "title": "Reset Password | Argobot",
+    "title": "Reset Password | Argobots",
     "heading": "Reset Password",
     "description": "Reset Your Password. Input and confirm your password before proceeding",
     "passwordPlaceholder": "Password",

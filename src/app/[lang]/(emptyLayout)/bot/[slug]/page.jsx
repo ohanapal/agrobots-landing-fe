@@ -4,7 +4,7 @@ import BotPageComponent from '@/components/pages/bot'
 import { API_URL } from '@/configs'
 
 export const metadata = {
-  title: 'BotPage | Argobot'
+  title: 'BotPage | Argobots'
 }
 
 export default async function BotPage({ params }) {

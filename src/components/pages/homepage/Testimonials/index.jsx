@@ -13,7 +13,7 @@ const testimonialsData = [
     name: 'John Doe',
     designation: 'CEO at Company',
     testimonial:
-      'Implementing Argobot AI Chatbot has transformed our customer engagement. Our lead conversion rates have significantly improved.'
+      'Implementing Argobots AI Chatbot has transformed our customer engagement. Our lead conversion rates have significantly improved.'
   },
   {
     id: 2,
@@ -21,7 +21,7 @@ const testimonialsData = [
     name: 'Jane Smith',
     designation: 'CTO at Company',
     testimonial:
-      'Using Argobot AI Chatbot has greatly improved our customer support efficiency. Our response time has been reduced significantly.'
+      'Using Argobots AI Chatbot has greatly improved our customer support efficiency. Our response time has been reduced significantly.'
   },
   {
     id: 3,
@@ -29,7 +29,7 @@ const testimonialsData = [
     name: 'Mike Johnson',
     designation: 'COO at Company',
     testimonial:
-      'Argobot AI Chatbot has revolutionized our sales process. We have seen a significant increase in conversions and revenue.'
+      'Argobots AI Chatbot has revolutionized our sales process. We have seen a significant increase in conversions and revenue.'
   },
   {
     id: 4,
@@ -37,7 +37,7 @@ const testimonialsData = [
     name: 'Sarah Williams',
     designation: 'Marketing Manager',
     testimonial:
-      'The Argobot AI Chatbot has been a game-changer for our marketing campaigns. It has helped us reach a wider audience and generate more leads.'
+      'The Argobots AI Chatbot has been a game-changer for our marketing campaigns. It has helped us reach a wider audience and generate more leads.'
   }
 ]
 

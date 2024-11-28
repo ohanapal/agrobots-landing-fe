@@ -2,7 +2,7 @@ import { Clients, Hero, PricingComparison, PricingPlans, Testimonials } from '@/
 import { getHomepageDict, getPricingDict } from '@/utils/i18n/get-dictionary'
 
 export const metadata = {
-  title: 'Pricing | Argobot'
+  title: 'Pricing | Argobots'
 }
 
 export default async function PricingPage({ params: { lang } }) {

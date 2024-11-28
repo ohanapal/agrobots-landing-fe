@@ -37,7 +37,7 @@ export default function BotForm({
 }) {
   const dispatch = useDispatch()
 
-  const cb = useThreadCallback(id, tempMessages, handlePlay, botData)
+  const cb = useThreadCallback(id, handlePlay, botData)
   const handleSubmit = e => {
     e.preventDefault()
     if (message === '') return

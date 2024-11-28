@@ -22,7 +22,7 @@ export default function BotMobileFAQs({
   botData
 }) {
   const dispatch = useDispatch()
-  const cb = useThreadCallback(id, tempMessages, handlePlay, botData)
+  const cb = useThreadCallback(id, handlePlay, botData)
   return (
     <section
       className={cn(

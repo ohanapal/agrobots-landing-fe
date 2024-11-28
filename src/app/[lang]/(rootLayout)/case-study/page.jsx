@@ -7,7 +7,7 @@ import { Testimonials } from '@/components/pages/homepage'
 import { getCaseStudyDict, getHomepageDict } from '@/utils/i18n/get-dictionary'
 
 export const metadata = {
-  title: 'Case Study | Argobot'
+  title: 'Case Study | Argobots'
 }
 
 export default async function CaseStudyPage({ params: { lang } }) {

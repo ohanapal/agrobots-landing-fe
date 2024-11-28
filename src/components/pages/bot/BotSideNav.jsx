@@ -70,7 +70,7 @@ export default function BotSideNav({
   const [open, setopen] = useState(false)
   const [selectedThread, setselectedThread] = useState(undefined)
 
-  const cb = useThreadCallback(id, tempMessages, handlePlay, botData)
+  const cb = useThreadCallback(id, handlePlay, botData)
 
   return (
     <nav
@@ -129,7 +129,7 @@ export default function BotSideNav({
             )}
             {isFaqSuccess && (
               <div className='pb-4 pt-3 px-5'>
-                <p className={cn('pb-2 tracking-widest text-sm', styles.textSecondary)}>FAQs</p>
+                <p className={cn('pb-2 tracking-widest text-sm', styles.textSecondary)}>Menu</p>
                 {faqs?.data?.length ? (
                   faqs?.data?.map(faq => (
                     <p
@@ -138,7 +138,7 @@ export default function BotSideNav({
                       onClick={() => {
                         setMessage(faq?.question)
                         runBotThread({
-                          msg: `<p>${faq?.question} <span style="display:none">Give response following this: ${faq?.objective}</span></p>`,
+                          msg: `<p>${faq?.question} <span style="display:none">Give response following this objective/answer: ${faq?.objective}</span></p>`,
                           setisLoading,
                           setTempMessages,
                           tempMessages,
@@ -153,7 +153,7 @@ export default function BotSideNav({
                     </p>
                   ))
                 ) : (
-                  <p className={cn('cursor-pointer py-2 text-sm', styles.textPrimary)}>No FAQ found</p>
+                  <p className={cn('text-sm py-2', styles.textPrimary)}>No FAQ found</p>
                 )}
               </div>
             )}
@@ -201,7 +201,7 @@ export default function BotSideNav({
                       </div>
                     ))
                   ) : (
-                    <p className='text-sm'>No Threads Found</p>
+                    <p className={cn('text-sm px-3 py-2', styles.textPrimary)}>No Chats Found</p>
                   )}
                 </div>
               </div>

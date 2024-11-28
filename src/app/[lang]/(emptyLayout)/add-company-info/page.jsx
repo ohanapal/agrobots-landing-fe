@@ -6,7 +6,7 @@ import Typography from '@/components/ui/typography'
 import { getCompanyInfoDict } from '@/utils/i18n/get-dictionary'
 
 export const metadata = {
-  title: 'Add Company Info | Argobot'
+  title: 'Add Company Info | Argobots'
 }
 
 export default async function AddCompanyInfo({ params: { lang } }) {
@@ -16,7 +16,7 @@ export default async function AddCompanyInfo({ params: { lang } }) {
     <div className='bg-primary-foreground'>
       <div className='container py-20'>
         <LLink href='/'>
-          <Img src={logo} alt='Argobot' className='w-32 h-auto mb-5' />
+          <Img src={logo} alt='Argobots' className='w-32 h-auto mb-5' />
         </LLink>
         <Typography variant='h2' className='font-medium'>
           {t.title}

@@ -158,42 +158,42 @@ export default function BotPageComponent({ videoUrl }) {
     { isSuccess: isThreadSuccess, isError, error, data: threadData, isLoading: isCreateThreadLoading }
   ] = useCreateThreadMutation()
 
-  const createNewThreadFn = useCallback(
-    async isNewInstance => {
-      const ipData = await axios.get(IP_INFO_API_URL)
-      const { city, country, latitude, longitude } = { ...ipData.data }
-      const location = {
-        address: city && country ? `${city}, ${country}` : city || country || 'Unknown',
-        lat: latitude,
-        long: longitude
-      }
-
-      if (isNewInstance) {
-        const newUid = uuid()
-        setCookie('uid', newUid)
-        setuid(newUid)
-        createThread({
-          bot_id,
-          thread_id: 'new',
-          name: 'Untitled Thread',
-          unique_id: newUid,
-          location,
-          source: referrer
-        })
-      } else {
-        createThread({ bot_id, thread_id: 'new', name: 'Untitled Thread', unique_id: uid, location, source: referrer })
-      }
-    },
-    [bot_id, createThread, uid, referrer]
+  // Fetching all the threads for that unique id
+  const {
+    data: allThreads,
+    isSuccess: isAllThreadsSuccess,
+    isLoading: isAllThreadsLoading
+  } = useGetAllThreadQuery(
+    { unique_id: uid, limit: 100, sortBy: 'createdAt', sortOrder: 'desc', bot_id },
+    { skip: !uid }
   )
 
-  useEffect(() => {
-    if (bot_id) {
-      const localUid = getCookie('uid')
-      if (localUid) setuid(localUid)
-      else createNewThreadFn(true)
+  const createNewThreadFn = useCallback(async () => {
+    const ipData = await axios.get(IP_INFO_API_URL)
+    const { city, country, latitude, longitude } = { ...ipData.data }
+    const location = {
+      address: city && country ? `${city}, ${country}` : city || country || 'Unknown',
+      lat: latitude,
+      long: longitude
     }
-  }, [bot_id, createThread, createNewThreadFn])
+
+    createThread({
+      bot_id,
+      thread_id: 'new',
+      name: 'Untitled Thread',
+      unique_id: uid,
+      location,
+      source: referrer
+    })
+  }, [bot_id, createThread, referrer, uid])
+
+  useEffect(() => {
+    if (isAllThreadsSuccess) {
+      if (allThreads?.data?.length === 0) {
+        createNewThreadFn()
+      }
+    }
+  }, [allThreads?.data?.length, isAllThreadsSuccess, createNewThreadFn])
 
   const { slug } = useParams()
   const { data, isSuccess } = useGetBotUsingSlugQuery(slug)
@@ -271,16 +271,11 @@ export default function BotPageComponent({ videoUrl }) {
   const { data: faqs, isLoading: isFaqLoading, isSuccess: isFaqSuccess } = useGetBotFAQQuery(bot_id)
 
   const [faqsOpen, setFaqsOpen] = useState(false)
-  // Fetching all the threads for that unique id
-  const {
-    data: allThreads,
-    isSuccess: isAllThreadsSuccess,
-    isLoading: isAllThreadsLoading
-  } = useGetAllThreadQuery({ unique_id: uid, limit: 100, sortBy: 'createdAt', sortOrder: 'desc' }, { skip: !uid })
+
   // Function for custom function calling by button
   const dispatch = useDispatch()
 
-  const cb = useThreadCallback(thread_id, tempMessages, handlePlay, data?.data)
+  const cb = useThreadCallback(thread_id, handlePlay, data?.data)
 
   const handleCallback = useCallback(
     message => {
@@ -302,6 +297,18 @@ export default function BotPageComponent({ videoUrl }) {
     window.handleCallback = handleCallback
     window.thread_id = thread_id
   }, [handleCallback, thread_id])
+
+  useEffect(() => {
+    if (bot_id) {
+      const localUid = getCookie('uid')
+      if (localUid) setuid(localUid)
+      else {
+        const newUid = uuid()
+        setCookie('uid', newUid)
+        setuid(newUid)
+      }
+    }
+  }, [bot_id])
 
   if (videoUrl && !videoPlayEnded) {
     return (

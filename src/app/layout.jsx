@@ -9,7 +9,7 @@ const poppins = Poppins({ subsets: ['latin'], weight: ['300', '400', '500', '600
 
 export const metadata = {
   title: 'BLDR AI Chatbot',
-  description: 'Product of Argobot AI Solutions'
+  description: 'Product of Argobots AI Solutions'
 }
 
 export default async function RootLayout({ children }) {

@@ -1,14 +1,14 @@
 {
   "header": {
     "tag": "Header",
-    "title": "Argobot AI Case Study",
+    "title": "Argobots AI Case Study",
     "description": "Boosting Lead Generation and Website Conversions"
   },
   "about": {
     "tag": "About the project",
     "firstSection": {
       "title": "Background",
-      "description": "A leading e-commerce company, XYZ, struggled with capturing leads and converting website visitors into customers. They partnered with Argobot to implement AI-powered chatbots to enhance their digital engagement."
+      "description": "A leading e-commerce company, XYZ, struggled with capturing leads and converting website visitors into customers. They partnered with Argobots to implement AI-powered chatbots to enhance their digital engagement."
     },
     "secondSection": {
       "title": "Challenges",
@@ -17,8 +17,8 @@
   },
   "whatWeDid": {
     "tag": "What we did",
-    "title": "Argobot deployed its AI chatbot to",
-    "description": "We Integrated Argobot AI chatbot with XYZ’s CRM and marketing platforms, Conducted A/B testing to optimize chatbot interactions & Trained the chatbot using historical customer data.",
+    "title": "Argobots deployed its AI chatbot to",
+    "description": "We Integrated Argobots AI chatbot with XYZ’s CRM and marketing platforms, Conducted A/B testing to optimize chatbot interactions & Trained the chatbot using historical customer data.",
     "cards": [
       {
         "id": 1,
@@ -55,7 +55,7 @@
   },
   "getStartedCTA": {
     "title": "Summary",
-    "description": "Argobot AI Chatbots revolutionized XYZ’s online presence, driving significant improvements in lead generation and conversion rates. The personalized interactions and efficient customer support provided by the chatbot led to higher customer satisfaction and business growth.",
+    "description": "Argobots AI Chatbots revolutionized XYZ’s online presence, driving significant improvements in lead generation and conversion rates. The personalized interactions and efficient customer support provided by the chatbot led to higher customer satisfaction and business growth.",
     "cta": "Sign Up for Free",
     "cta2": "Contact Us"
   }
